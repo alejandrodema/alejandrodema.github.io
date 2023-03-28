@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+	<head>
+		<title>SUBSCRIPCIÓN CUEVAFITT</title>
+		<link rel="stylesheet" type="text/css" href="../css/pagina principal.css">
+	</head>
+
+
+	<body>
+		<br>
+		<br>
+		<a href="../PROYECTO.html"> Volver a la página principal</a>
+		<hr>
+		<h4 id="formulario_titulo"> Formulario de subscripción a CUEVAFITT </h4>
+		<br>
+
+		<table border="1" width="850" id="formulario">	
+			<form>
+			<tr align="center">
+				<td colspan="2"> <label for= "title">Nombre de usuario del gymnasio</label>
+				<input type="text" name="nombre" id="nombre" maxlength="15" required/> </td>
+			</tr>
+			
+			<tr align="left">
+				<td> <label for= "Nombre"> Nombre: </label>
+				<input type="text" name="nombre" id="nombre" required /> </td>
+				<td> <label for ="Apellidos"> Apellidos :</label>
+				<input type="text" name="Apellidos" id="Apellidos" required> </td>
+			</tr>
+			<tr align="left">
+				<td><label for="Contraseña"> Dirección:</label>
+				<input type="password" name="Contraseña" id="Contraseña"></td>
+				<td><label for="Contraseña"> DNI</label>
+				<input type="password" name="Contraseña" id="Contraseña" required></td>
+			</tr>
+			<tr align="left">
+				<td colspan="2"> <label for= "Nombre">Email</label>
+				<input type="text" name="nombre" id="nombre"/> </td>
+			</tr>
+			<tr>
+				<td> Sexo </td>
+				<td><input type="radio" name="sexo" value="Hombre">
+				Hombre
+
+				<input type="radio" name="sexo" value="Mujer">
+				Mujer </td>
+			</tr>
+			<tr>
+				<td> Horario </td>
+				<td> <input type="checkbox" name="subscripcion" value="Boletin">
+				Mañana
+				<br>
+				<input type="checkbox" name="Lectura" value="Lectura">
+				Tarde
+				<br>
+				</td>
+			</tr>
+			<tr>
+				<td> Duración de la cuota </td>
+				<td> <select>
+					<option>1 mes</option>
+					<option> 2 meses</option>
+					<option> 3 meses</option>
+				</select>
+				</td>
+			</tr>
+			<tr>
+				<td> Tipo de cuota</td>
+				<td> <select multiple size="3">
+					<optgroup>
+						<option>Cuota unipersonal</option>
+						<option>Cuota dual</option>
+						<option>Cuota de tres personas</option>
+					</optgroup>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td> Subir su foto </td>
+				<td> <input type="file" name="fichero"/> </td>
+			</tr>
+			<tr>
+				<td> Atención al cliente </td>
+				<td> <textarea name= "Comentarios" cols="65" rows="10"></textarea>
+				</td>
+			</tr>
+			<tr align="center">
+				<td> <input type="reset" name="borrar" value= "Resetear">
+				</td>
+				<td> <input type="submit" name="enviar" value="Enviar" >
+				</td>
+			</tr>
+			</form>
+		</table>
+		<div align="right">
+				<p align= "bottom" >© Copyrigth terms of condition</p>
+				<p align="bottom"> +77 36 26 761.  </p>
+			</div>
+	</body>
+</html>

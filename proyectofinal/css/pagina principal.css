@@ -1,0 +1,13 @@
+
+body {background-color: #D0D0D0;}
+table{background-color: #F5F5DC;}
+.navegador{background-color:F5F5DC;}
+#formulario_titulo{font: oblique bold 170% cursive;}
+@font-face {font-family: montserrat; src: url(../fuentes/static/Montserrat-ExtraLightItalic.ttf);}
+.tituloh33 {font-family: montserrat;}
+@font-face {font-family: montserrat2; src: url(../fuentes/static/Montserrat-BoldItalic.ttf);}
+.tituloh3  {font-family: montserrat2; font-size: 150%}
+a:visited {color: brown;}
+a:hover {color: yellowgreen;}
+a:active {color: violet;}
+#logo{float: right;}
